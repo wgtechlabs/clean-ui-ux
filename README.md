@@ -71,8 +71,4 @@ Maintained by [WG Technology Labs](https://github.com/wgtechlabs).
 
 ### References
 
-This guidance draws on ideas from the following public resources:
-
-- [Taste Skill](https://github.com/Leonxlnx/taste-skill)
-- [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
-- [Design Motion Principles](https://github.com/kylezantos/design-motion-principles)
+This guidance draws on ideas from the following public resources: [Taste Skill](https://github.com/Leonxlnx/taste-skill), [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill), and [Design Motion Principles](https://github.com/kylezantos/design-motion-principles).
