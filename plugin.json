@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "clean-ui-ux",
+  "version": "0.1.0",
+  "description": "WG Tech Labs UI/UX guidance combining product-specific art direction, usability, accessibility, and purposeful interface motion.",
+  "author": {
+    "name": "WG Technology Labs",
+    "url": "https://github.com/wgtechlabs"
+  },
+  "homepage": "https://github.com/wgtechlabs/clean-ui-ux",
+  "repository": "https://github.com/wgtechlabs/clean-ui-ux",
+  "keywords": [
+    "clean-ui-ux",
+    "design",
+    "ui",
+    "ux",
+    "accessibility",
+    "motion"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Clean UI/UX",
+        "shortDescription": "Build polished, accessible interfaces with purposeful motion",
+        "longDescription": "One bundled skill for product-specific visual direction, coherent UI systems, accessible interactions, and context-aware motion across web and app interfaces.",
+        "developerName": "WG Technology Labs",
+        "category": "Design",
+        "capabilities": [
+          "Instructions"
+        ],
+        "defaultPrompt": [
+          "Use Clean UI/UX to design or improve this interface.",
+          "Use Clean UI/UX to review this interface usability and motion."
+        ]
+      }
+    }
+  }
+}

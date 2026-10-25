@@ -1,0 +1,20 @@
+{
+  "name": "clean-ui-ux",
+  "interface": {
+    "displayName": "Clean UI/UX"
+  },
+  "plugins": [
+    {
+      "name": "clean-ui-ux",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}
