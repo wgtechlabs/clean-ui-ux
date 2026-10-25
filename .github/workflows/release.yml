@@ -1,0 +1,27 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Create versioned release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create release
+        uses: wgtechlabs/release-build-flow-action@6df9cb42c24c296d902150d051a0b6be4422cccc # v1.8.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          main-branch: main
+          initial-version: 0.1.0
+          changelog-path: ./CHANGELOG.md
+          commit-convention: clean-commit
+          create-release: true
