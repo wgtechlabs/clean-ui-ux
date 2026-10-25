@@ -69,6 +69,10 @@ No license has been specified yet.
 
 Maintained by [WG Technology Labs](https://github.com/wgtechlabs).
 
-### Inspiration & Attribution
+### References
 
-Clean UI/UX is an original synthesis informed by public work from [Taste Skill](https://github.com/Leonxlnx/taste-skill), [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill), and [Design Motion Principles](https://github.com/kylezantos/design-motion-principles). These links provide attribution only. The plugin packages its own guidance and does not load or invoke those projects.
+This guidance draws on ideas from the following public resources:
+
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill)
+- [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+- [Design Motion Principles](https://github.com/kylezantos/design-motion-principles)
